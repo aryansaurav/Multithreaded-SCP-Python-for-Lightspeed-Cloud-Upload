@@ -22,12 +22,12 @@ tqdm
 # Parameters to set in the file
 
 	src = 'path/to/my_local_upload_directory'				### Set the local directory path that needs to be uploaded
-	server_ip = '1.2.3.4'									### Set the IP Address of the server here
-	username = "user"										###	Set the RSA verification catchphrase here
+	server_ip = '1.2.3.4'							### Set the IP Address of the server here
+	username = "user"							###	Set the RSA verification catchphrase here
 	rsa_catchphrase = "rsa_catchphrase"
-	rsa_keyfile = 'path/to/my/openssh-private-key-file'		### Set the path of the OpenSSH format RSA private key (don't forget to convert to OpenSSH format first)
+	rsa_keyfile = 'path/to/my/openssh-private-key-file'			### Set the path of the OpenSSH format RSA private key (don't forget to convert to OpenSSH format first)
 	# src = "Recordings"
-	dest = '/path/to/destination/directory/on/server'		### Set the destination directory on the server where the folder should be uploaded
+	dest = '/path/to/destination/directory/on/server'			### Set the destination directory on the server where the folder should be uploaded
 
-	num_parallel = 40										### Set the number of parallel scp copy threads to be launched (more, the faster limited to the bandwidth upload speed)
+	num_parallel = 40							### Set the number of parallel scp copy threads to be launched (more, the faster 											limited to the bandwidth upload speed)
 
