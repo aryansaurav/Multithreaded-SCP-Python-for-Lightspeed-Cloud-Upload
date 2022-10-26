@@ -4,13 +4,8 @@ from scp import SCPClient
 import sys
 
 import paramiko
-# import multiprocessing
 from os import listdir
 from os.path import join
-from concurrent.futures import ThreadPoolExecutor
-from concurrent.futures import ProcessPoolExecutor
-from fnmatch import fnmatch
-from multiprocessing import Pool
 
 import threading
 import logging
