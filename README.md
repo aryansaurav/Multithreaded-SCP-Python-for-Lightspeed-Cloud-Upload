@@ -10,9 +10,13 @@ the speed up to the maximum allowed by your ISP's bandwidth provided.
 
 # Requirements
 paramiko
+
 scp
+
 threading
+
 logging
+
 tqdm
 
 # Parameters to set in the file
