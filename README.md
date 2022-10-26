@@ -23,8 +23,8 @@ tqdm
 
 	src = 'path/to/my_local_upload_directory'				### Set the local directory path that needs to be uploaded
 	server_ip = '1.2.3.4'							### Set the IP Address of the server here
-	username = "user"							###	Set the RSA verification catchphrase here
-	rsa_catchphrase = "rsa_catchphrase"
+	username = "user"							### Set the username on server computer here
+	rsa_catchphrase = "rsa_catchphrase"					### Set the rsa catchphrase (password) provided while generating private RSA key
 	rsa_keyfile = 'path/to/my/openssh-private-key-file'			### Set the path of the OpenSSH format RSA private key (don't forget to convert to OpenSSH format first)
 	# src = "Recordings"
 	dest = '/path/to/destination/directory/on/server'			### Set the destination directory on the server where the folder should be uploaded
